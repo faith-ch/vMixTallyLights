@@ -1,0 +1,25 @@
+{
+  "name": "vmixtallylights",
+  "version": "1.0.0",
+  "description": "Tally lights for Vmix",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faith-ch/vMixTallyLights.git"
+  },
+  "author": "Ivaylo Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faith-ch/vMixTallyLights/issues"
+  },
+  "homepage": "https://github.com/faith-ch/vMixTallyLights#readme",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "node-vmix": "^1.6.1",
+    "serialport": "^10.4.0"
+  }
+}
